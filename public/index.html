@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Voyage Maghreb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: gold;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a, .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: cyan;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        
+
+        form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .input-field {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .input-field label {
+            font-weight: bold;
+        }
+
+        .input-field input {
+            width: 100%;
+            padding: 5px;
+        }
+        .form-container {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .form-container h3 {
+            color: cyan;
+            
+        }
+
+        .form-container label {
+            color: cyan;
+            
+        }
+
+        .form-container form {
+            margin: 0 10px;
+        }   
+
+        .custom-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid cyan;
+            border-radius: 5px;
+            color: cyan;
+            background-color: black;
+            cursor: pointer;
+        }
+
+        .custom-button:hover {
+            color: black;
+            background-color: cyan;
+        }
+        .button-section {
+            background-color: #333;
+            color: #fff;
+            padding: 0px;
+            text-align: right;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+         .image-container {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scroll-padding: 10px;
+    }
+    image-container img {
+        width: 250px;
+        margin: 5px 10px;
+    }
+       
+
+    </style>
+</head>
+
+<body>
+    
+   <header style="background-color: black; padding: 20px; height: 150px; display: flex; align-items: center; justify-content: space-between;">
+    
+     <div>
+        <img src="2320053.png" alt="Voyage Maghreb" style="height: 80px;">
+
+        <h1 style="color: #fff; border-bottom: 2px solid cyan; ">  Voyage Maghreb  </h1>
+
+       
+    </div>
+   
+    
+   <div>
+    
+         <img src="https://github.com/Mickael75013/Voyage_Maghreb/blob/main/Images/algerie.png?raw=true"  style="width: 80px">
+         <img src="https://github.com/Mickael75013/Voyage_Maghreb/blob/main/Images/Maroc.jpg?raw=true"  style="width: 80px">
+         <img src="https://github.com/Mickael75013/Voyage_Maghreb/blob/main/Images/Tunisie.jpg?raw=true"  style="width: 80px">
+    <form id="searchForm">
+        <input type="text" id="searchInput" list="countriesList" style="padding: 5px; width: 280px; margin-right: 5px;">
+        <input type="submit" class="custom-button" value="Rechercher">
+    </form>
+
+    <datalist id="countriesList">
+        <option value="Rabat">
+        <option value="Alger">
+    </datalist>
+</div>
+
+
+   
+   
+
+    <div>
+        <a href="#" class="custom-button" style="margin-right: 10px;">Contact</a>
+        <a href="#" class="custom-button" style="margin-right: 10px;">En savoir plus</a>
+        <a href="Connexion.html" class="custom-button">Connexion</a> 
+    </div>
+</header>
+
+
+
+
+
+    
+   
+
+    <nav >
+        <ul >
+            <div  class="image-container" style="text-align: center;">
+               <img src="https://github.com/Mickael75013/Voyage_Maghreb/blob/main/Images/tunisie2.jpg?raw=True" alt="La Tunisie" style="width: 650px; margin-top: 5px; margin-right: 10px; margin-bottom: 10px; margin-left: 16px;">
+                <img src="https://github.com/Mickael75013/Voyage_Maghreb/blob/main/Images/35224245-Original.jpg?raw=true"  alt="Voyage au MAROC" style="width: 500px; margin-top: 5px; margin-right: 10px; margin-bottom: 10px; margin-left: 12px;">
+                <img src="https://github.com/Mickael75013/Voyage_Maghreb/blob/main/Images/Alger-10.jpg?raw=true?raw=true"  alt="Voyage au MAROC" style="width: 500px; margin-top: 5px; margin-right: 10px; margin-bottom: 10px; margin-left: 12px;">
+
+            </div>
+
+            <fieldset style="border: 2px solid black; padding: 5px; background-color: white;">
+                <ul>
+                    <li><a href="index.html" style="color: #000000; font-family: sans-serif;">Accueil</a></li>
+                    <li><a href="destinations.html" style="color: #000000; font-family: sans-serif;">Destinations</a></li>
+                    <li><a href="hotels.html" style="color: #000000; font-family: sans-serif;">Hotels</a></li>
+                    <li><a href="contact.html" style="color: #000000; font-family: sans-serif;">Vols</a></li>
+                </ul>
+            </fieldset>
+        </ul>
+    </nav>
+
+    <section>
+        <h2 style=>Bienvenue sur notre site de voyage !</h2>
+        <p>Découvrez des destinations exotiques, réservez des hôtels de qualité et planifiez vos prochaines aventures.</p>
+    </section>
+    <div class="form-container">
+        <form action="/login" method="post">
+            <h3 style="text-align: center; text-decoration: underline; font-family: Times New Roman, serif;">Connexion</h3>
+            <label for="email" style="display: block; text-align: center; font-weight: bold;">Email :</label>
+            <input type="email" id="email" name="email" style="display: block; margin: 0 auto; padding: 5px; border: 1px solid #ccc; border-radius: 5px; width: 200px; font-weight: bold;" required><br><br>
+            <label for="password" style="display: block; text-align: center; font-weight: bold;">Mot de passe :</label>
+            <input type="password" id="password" name="password" style="display: block; margin: 0 auto; padding: 5px; border: 1px solid #ccc; border-radius: 5px; width: 200px; font-weight: bold;" required><br><br>
+            
+            <input class="custom-button" type="submit" value="Se connecter" style="display: block; margin: 0 auto;">
+            
+            
+            
+        
+            
+        </form>
+        
+        <form>
+            <h3 style="text-align: center; text-decoration: underline; font-family: Times New Roman, serif;">Nouvel utilisateur</h3>
+            <div style="margin-bottom: 70px;"></div>
+            <a href="/New_User2.html" class="custom-button" style="display: block; margin: 20px auto;">Créer un compte</a>
+        </form>
+
+    </div>
+    
+    <div style="margin-bottom: 50px;"></div>
+     
+    
+    
+    <h2 style="color: #fff; background-color: #333; padding: 5px;border-bottom: 2px solid cyan; text-align: center;">Recherche de ville ou pays</h2>
+     
+    <div style="text-align: center;">
+  
+<div>
+  <form id="searchForm">
+    <input type="text" id="searchInput" list="countriesList" style="padding: 5px; width: 300px; margin: 0px auto;">
+    <input type="submit" value="Entrer">
+  </form>
+
+  <datalist id="countriesList">
+    <option value="Rabat">
+     <option value="Alger">
+  </datalist>
+</div>
+
+<script>
+  document.getElementById('searchForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    var searchInput = document.getElementById('searchInput');
+    var inputValue = searchInput.value.toLowerCase();
+    
+    if (inputValue === 'rabat') {
+      window.location.href = 'Country/Maroc/Rabat.html';
+    }
+    if (inputValue === 'alger') {
+      window.location.href = 'Country/Algerie/Alger.html';
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+  <div style="margin-bottom: 50px;"></div>
+    <select  id="countrySelect" class="custom-button" style="padding: 5px; border: 2px solid cyan; border-radius: 5px; color: black; background-color: white; margin: 10px auto;" onchange="window.location.href = this.value;">
+      <option style="background-color: white; color: black;" value="">Sélectionner un pays</option>
+      <optgroup label="Algérie" style="background-color: white; color: black;">
+        <option style="background-color: white; color: black;" value="https://raw.githubusercontent.com/Mickael75013/Voyage_Maghreb/main/Country/Algerie/Alger.html">Alger</option>
+        <option style="background-color: white; color: black;" value="Country/Algerie/Oran.html">Oran</option>
+        <option style="background-color: white; color: black;" value="Country/Algerie/Constantine.html">Constantine</option>
+        <option style="background-color: white; color: black;" value="Country/Algerie/Tlemcen.html">Tlemcen</option>
+        <option style="background-color: white; color: black;" value="Country/Algerie/Annaba.html">Annaba</option>
+      </optgroup>
+      <optgroup label="Maroc" style="background-color: white; color: black;">
+        <option style="background-color: white; color: black;" value="Country/Maroc/Casablanca.html">Casablanca</option>
+        <option style="background-color: white; color: black;" value="Country/Maroc/Marrakech.html">Marrakech</option>
+        <option style="background-color: white; color: black;" value="Country/Maroc/Fes.html">Fès</option>
+        <option style="background-color: white; color: black;" value="Country/Maroc/Rabat.html">Rabat</option>
+        <option style="background-color: white; color: black;" value="Country/Maroc/Tanger.html">Tanger</option>
+      </optgroup>
+      <optgroup label="Tunisie" style="background-color: white; color: black;">
+        <option style="background-color: white; color: black;" value="Country/Tunisie/Tunis.html">Tunis</option>
+        <option style="background-color: white; color: black;" value="Country/Tunisie/Sousse.html">Sousse</option>
+        <option style="background-color: white; color: black;" value="Country/Tunisie/Sfax.html">Sfax</option>
+        <option style="background-color: white; color: black;" value="Country/Tunisie/Bizerte.html">Bizerte</option>
+        <option style="background-color: white; color: black;" value="Country/Tunisie/Gabes.html">Gabès</option>
+      </optgroup>
+    </select>
+  </div>
+
+  <div style="margin-bottom: 50px;"></div>
+</div>
+
+
+
+    <footer>
+        &copy; Voyage Maghreb 2023. Tous droits réservés.
+    </footer>
+</body>
+</html>
+

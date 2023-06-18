@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Voyage Maghreb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        
+        .custom-button {
+            background-color: #333;
+            color: cyan;
+            padding: 0px;
+            text-align: right;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="background-color: black; padding: 20px; height: 150px; display: flex; align-items: center; justify-content: space-between;">
+        <div style="text-align: center;">
+            <img src="2320053.png" alt="Voyage Maghreb" style="height: 80px;">
+            <h1 style="color: #fff; border-bottom: 2px solid cyan;">Voyage Maghreb</h1>
+        </div>
+    </header>
+
+    <div style="margin-bottom: 0px;"></div>
+    <div style="background-image: url('./photo-adobe-stock-1664201252.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+        <form action="/login" method="post" style="text-align: center;">
+            <h3 style="text-decoration: underline; font-family: Times New Roman, serif;">Connexion</h3>
+            <label for="email" style="display: block; font-weight: bold;">Email :</label>
+            <input type="email" id="email" name="email" style="display: block; margin: 0 auto; padding: 5px; border: 1px solid #ccc; border-radius: 5px; width: 200px; font-weight: bold;" required><br><br>
+            <label for="password" style="display: block; font-weight: bold;">Mot de passe :</label>
+            <input type="password" id="password" name="password" style="display: block; margin: 0 auto; padding: 5px; border: 1px solid #ccc; border-radius: 5px; width: 200px; font-weight: bold;" required><br><br>
+            <input class="custom-button" type="submit" value="Se connecter" style="display: block; margin: 0 auto;">
+        </form>
+    </div>
+
+    <div style="margin-bottom: 350px;"></div>
+    <footer>
+        &copy; Voyage Maghreb 2023. Tous droits réservés.
+    </footer>
+</body>
+
+</html>
